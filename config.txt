@@ -1,2 +1,2 @@
-<Token Goes Here>
-<Channel ID Goes Here>
+Token Goes Here
+Channel ID Goes Here

@@ -100,7 +100,7 @@ public class Main {
     }
 
     private static String sendRequest(String token, String method, String url) throws IOException {
-        URL urlObj = new URL("https://discord.com/api/v8" + url);
+        URL urlObj = new URL("https://discord.com/api/v9" + url);
         HttpURLConnection con = (HttpURLConnection)urlObj.openConnection();
         con.setRequestMethod(method);
         con.addRequestProperty("Authorization", token);
